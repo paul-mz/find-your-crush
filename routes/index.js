@@ -19,6 +19,10 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('pages/contact.ejs');
 });
+/* GET account creation page. */
+router.get('/account-creation', function(req, res, next) {
+  res.render('pages/creation-landing.ejs');
+});
 
 
 module.exports = router;
