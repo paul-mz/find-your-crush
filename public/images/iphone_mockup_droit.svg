@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="474.202" height="886.698" viewBox="0 0 474.202 886.698">
+  <defs>
+    <filter id="base" x="0" y="0" width="474.202" height="886.698" filterUnits="userSpaceOnUse">
+      <feOffset dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="mask" width="360.227" height="780.407" rx="22.312" fill="#ebebeb"/>
+    </clipPath>
+  </defs>
+  <g id="X" transform="matrix(1, 0.017, -0.017, 1, 158.613, -221.394)">
+    <g id="white" transform="translate(-108.67 240.827)">
+      <g transform="matrix(1, -0.02, 0.02, 1, -46.06, -16.7)" filter="url(#base)">
+        <rect id="base-2" data-name="base" width="397.005" height="816.893" rx="33.468" transform="matrix(1, 0.02, -0.02, 1, 45.76, 17.5)" fill="#fff"/>
+      </g>
+      <rect id="mask-2" data-name="mask" width="360.227" height="780.407" rx="22.312" transform="translate(17.931 17.94)" fill="#ebebeb"/>
+      <path id="bar" d="M0,0H194.042a0,0,0,0,1,0,0V15.549A12.643,12.643,0,0,1,181.4,28.192H12.643A12.643,12.643,0,0,1,0,15.549V0A0,0,0,0,1,0,0Z" transform="translate(101.184 17.3)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
