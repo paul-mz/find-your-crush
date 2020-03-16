@@ -1,5 +1,145 @@
 .account-creation-body {
-    .account-creation-container{
-        
+  margin: 0;
+  font-family: "Sofia Pro";
+  font-weight: 300;
+  .account-creation-container {
+    display: flex;
+    flex-direction: row;
+    .left-container {
+      flex: 1;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      position: relative;
+      .title {
+        margin-left: 60px;
+        margin-top: 40px;
+        font-size: 125px;
+        font-weight: 600;
+        line-height: 150px;
+        .highlight-text {
+          color: #ff3939;
+        }
+      }
+      .description {
+        margin-left: 60px;
+        width: 500px;
+        &:nth-child(4) {
+          margin-top: 20px;
+        }
+        &:nth-child(3) {
+          margin-top: 40px;
+        }
+      }
+      .rules-container {
+        margin-left: 60px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        .rule {
+          display: flex;
+          flex-direction: row;
+          margin-top: 20px;
+          &:first-of-type {
+            margin-top: 0;
+          }
+          .round {
+            width: 25px;
+            height: 25px;
+            border-radius: 100px;
+            background-image: linear-gradient(
+              to bottom right,
+              #ec48ac,
+              #ff3939
+            );
+          }
+          .rule-title {
+            margin-left: 10px;
+          }
+        }
+      }
+      .cta {
+        align-self: center;
+        padding: 10px 70px;
+        background-image: linear-gradient(to bottom right, #ec48ac, #ff3939);
+        color: white;
+        border-radius: 100px;
+        font-size: 18px;
+        position: absolute;
+        bottom: 50px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .return-btn{
+          position: absolute;
+          top: 20px;
+          left: 60px;
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          color: #b1b1b1;
+          img{
+              margin-left: 10px;
+          }
+      }
+      .title-page{
+        font-size: 60px;
+        margin-top: 50px;
+        margin-left: 60px;
+        font-weight: 400;
+        .highlight{
+          color: #ff3939;
+        }
+      }
+      .progression-bar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        .step{
+          width: 50px;
+          margin: 0 5px;
+          height: 6px;
+          background-color: rgba(black, .3);
+          border-radius: 100px;
+        }
+        .active{
+          background-color: black;
+          display: flex;
+          justify-content: center;
+          &:before{
+            content: "1";
+            align-self: center;
+            margin-top: -30px;
+          }
+        }
+      }
     }
+    .right-container {
+      flex: 1;
+      background-color: #fafafa;
+      .personality-bubble {
+        position: relative;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        .bubble {
+          background-image: linear-gradient(to bottom right, #ec48ac, #ff3939);
+          width: 100%;
+          height: 100%;
+          border-radius: 100px;
+        }
+        .title {
+          position: absolute;
+          align-self: center;
+          transform-origin: left;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
 }
