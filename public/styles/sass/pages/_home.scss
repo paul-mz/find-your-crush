@@ -80,12 +80,14 @@
       position: absolute;
       width: 100%;
       bottom: 0;
+      overflow: hidden;
     }
     .wave-1 {
       
     }
     .wave-2 {
       opacity: 40%;
+      left: 20%;
     }
   }
 
