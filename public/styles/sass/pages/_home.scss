@@ -181,7 +181,7 @@
       align-items: center;
       flex-direction: column;
       flex: 1;
-      margin: 45vw 22vw 0 22vw;
+      margin: 20vw 20vw 0 20vw;
       color: #ffffff;
       z-index: 2;
       .title {
@@ -204,17 +204,17 @@
       z-index: 2;
       margin: 0;
       img {
-        width: 25vw;
+        width: 20vw;
         transform: rotate(-1deg);
         &:nth-child(2) {
-          width: 35vw;
+          width: 25vw;
         }
       }
     }
   }
   .data-protection-container {
-    height: 100vh;
-    margin: 20vw 0;
+    height: 70vh;
+    margin: 10vw 0;
     display: flex;
     align-items: center;
     .left-container {
@@ -229,7 +229,7 @@
       text-align: center;
       color: #000000;
       .title-container {
-        margin: 15vh 5vh 0 0;
+        margin: 5vh 5vh 0 0;
         .title {
           font-size: 2.63vw;
           font-weight: 600;
