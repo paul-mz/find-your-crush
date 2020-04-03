@@ -1,6 +1,6 @@
 # find-your-crush
 
-## Initiation
+## Init
 
 `npm i`
 
