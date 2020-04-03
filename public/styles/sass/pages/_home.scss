@@ -1,8 +1,8 @@
 .home-body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: inherit;
   width: 100%;
-  font-family: 'Sofia Pro';
+  font-family: "Sofia Pro";
   .landing-container {
     width: 100vw;
     height: 100vh;
@@ -12,30 +12,30 @@
     font-weight: 300;
     color: #f7f7f7;
     display: flex;
-    background: linear-gradient(45deg, #EC5C4A, #EC48AC);
+    background: linear-gradient(45deg, #ec5c4a, #ec48ac);
     .left-container {
-        flex: 1;
-        .ellipse {
-          position: absolute;
-          top: -20%;
-          left: -20%;
-        }
-        .little-ellipse {
-          width: 47%;
-        }
-        .medium-ellipse {
-          width: 57%;
-        }
-        .big-ellipse {
-          width: 67%;
-        }
-        .iphone-mockup {
-          width: 30%;
-          position: absolute;
-          bottom: -22vh;
-          left: 30vh;
-          z-index: 1;
-        }
+      flex: 1;
+      .ellipse {
+        position: absolute;
+        top: -20%;
+        left: -20%;
+      }
+      .little-ellipse {
+        width: 47%;
+      }
+      .medium-ellipse {
+        width: 57%;
+      }
+      .big-ellipse {
+        width: 67%;
+      }
+      .iphone-mockup {
+        width: 30%;
+        position: absolute;
+        bottom: -22vh;
+        left: 30vh;
+        z-index: 1;
+      }
     }
     .right-container {
       flex: 1;
@@ -75,28 +75,20 @@
         }
       }
     }
-    .waves-container {
-      width: 100%;
+
+    .waves {
       position: absolute;
-      bottom: -29px;
-      height: 160px;
-      z-index: 0;
-      overflow: hidden;
-      .waves {
-        position: absolute;
-      }
-      .wave-1 {
-        width: 102%;
-        left: -10px;
-      }
-      .wave-2 {
-        width: 110%;
-        opacity: 40%;
-        bottom: 10px;
-        right: -278px;
-      }
+      width: 100%;
+      bottom: 0;
+    }
+    .wave-1 {
+      
+    }
+    .wave-2 {
+      opacity: 40%;
     }
   }
+
   .concept-container {
     height: 100vh;
     width: 100vw;
@@ -148,7 +140,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        img{
+        img {
           width: 400px;
           &:nth-child(2) {
             transform: rotate(36deg);
@@ -174,8 +166,8 @@
       z-index: 1;
     }
     .wave-light-bg {
-        margin-top: 50px;
-        z-index: -1;
+      margin-top: 50px;
+      z-index: -1;
     }
     .top-container {
       display: flex;
@@ -184,7 +176,7 @@
       flex-direction: column;
       flex: 1;
       margin: 45vh 22vw 0 22vw;
-      color: #FFFFFF;
+      color: #ffffff;
       z-index: 2;
       .title {
         font-size: 48px;
@@ -192,7 +184,7 @@
         text-align: center;
       }
       .desc {
-        margin: 5vh 12vw ;
+        margin: 5vh 12vw;
         font-size: 22px;
         font-weight: 200;
         text-align: center;
@@ -229,14 +221,14 @@
       align-items: center;
       text-align: center;
       color: #000000;
-      .title-container{
+      .title-container {
         margin: 15vh 5vh 0 0;
         .title {
           font-size: 42px;
           font-weight: 600;
           position: relative;
           &::after {
-            content: url('../../images/locker_icon.svg');
+            content: url("../../images/locker_icon.svg");
             position: absolute;
             top: 0;
             right: 0;
@@ -245,7 +237,7 @@
         .desc {
           font-size: 22px;
           font-weight: 200;
-          color: #5D5D5D;
+          color: #5d5d5d;
           margin: 40px 0;
         }
         .CTA {
@@ -265,7 +257,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../../images/Trace8.svg');
+    background: url("../../images/Trace8.svg");
     background-size: cover;
     background-repeat: no-repeat;
     .ellipse {
