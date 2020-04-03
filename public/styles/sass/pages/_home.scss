@@ -30,10 +30,11 @@
         width: 67%;
       }
       .iphone-mockup {
-        width: 30vw;
+        width: 40vw;
         position: absolute;
-        bottom: -22vh;
-        left: 30vh;
+        bottom: -20vh;
+        left: 25vh;
+        max-width: 600px;
         z-index: 1;
       }
     }
@@ -81,7 +82,6 @@
       position: absolute;
       width: 100%;
       bottom: 0;
-      overflow: hidden;
     }
     .wave-1 {
       
@@ -89,6 +89,7 @@
     .wave-2 {
       opacity: 40%;
       left: 20%;
+      width: 80%;
     }
   }
 
@@ -143,8 +144,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        overflow: hidden;
         img {
-          width: 400px;
+          width: 40vw;
+          max-width: 400px;
           &:nth-child(2) {
             transform: rotate(36deg);
             margin-left: -131px;
